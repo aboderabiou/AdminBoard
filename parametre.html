@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-5.12.1-web/css/all.css">
+    <title>Admin Board</title>
+</head>
+<body>
+    <section class="container-fluid bg-dark text-light">
+        <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" href="index.html">AdminBoard</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Dashboard<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="posts.html">Post</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="categorie.html">Catégorie</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="utilisateurs.html">Utilisateurs</a>
+                </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown active">
+                    <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="fas fa-user"></i>
+                        Bienvenu Houssein
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="profile.html"><i class="fas fa-user-circle"></i> Profile</a>
+                        <a class="dropdown-item" href="parametre.html"><i class="fas fa-cog"></i> Parametre</a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="login.html"><i class="fas fa-sign-out-alt"></i>LogOut</a>
+                </li>
+                </ul>
+            </div>
+        </nav>
+        </div>
+    </section>
+    <section class="container-fluid bg-primary">
+        <div class="container pt-3 pb-3">
+            <h4 class="text-light"><i class="fas fa-cog"></i> Paramètre</h4>
+        </div>
+    </section>
+    <section class="container-fluid bg-light">
+        <div class="container">
+            <div class="row pt-3 pb-3">
+                <div class="col-lg-3">
+                    <a href="index.html" class="text-decoration-none text-dark">
+                        <i class="fas fa-arrow-left"></i> 
+                        Back to Dashboard
+                    </a>
+                </div>
+                <div class="offset-lg-6"></div>
+                <div class="col-lg-3">
+                    <div class="btn btn-success"><i class="fas fa-check"></i> Save Change</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container pt-5 pb-5">
+        <div class="card">
+            <div class="card-header">
+                Edit Setting
+            </div>
+            <div class="card-body">
+                <p>Allow User Registrations</p>
+                <div class="form">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                        Yes
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option2" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                        No
+                        </label>
+                    </div>
+                </div>
+                <br>
+                <p>HomePage Format</p>
+                <div class="form">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                        Post Index
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios1" id="exampleRadios1" value="option2" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                        Single Page
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container-fluid bg-dark fixed-bottom pt-5 pb-5">
+        <div class="text-center text-light">Copyright © 2020 AdminBoard</div>
+    </section>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
